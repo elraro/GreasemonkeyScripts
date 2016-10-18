@@ -1,0 +1,2 @@
+# GreasemonkeyScripts
+Scripts for Greasemonkey
