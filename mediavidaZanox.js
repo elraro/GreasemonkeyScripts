@@ -2,6 +2,8 @@
 // @name        zanox tpm
 // @namespace   elraro@elraro.eu
 // @description Block zanox links in MV
+// @include http*://mediavida.com
+// @include http*://www.mediavida.com
 // @version     1
 // @grant       none
 // ==/UserScript==
