@@ -2,12 +2,12 @@
 // @name        zanox tpm
 // @namespace   elraro@elraro.eu
 // @description Block zanox links in MV
-// @include http*://mediavida.com
-// @include http*://www.mediavida.com
+// @include http*://mediavida.com/*
+// @include http*://www.mediavida.com/*
 // @version     1
 // @grant       none
 // ==/UserScript==
-var scriptCode = new Array(); // Vamos a guardar el script aqui
+var scriptCode = []; // Vamos a guardar el script aqui
 scriptCode.push('function amazon(){}'); // Vamos a reemplazar la función
 var script = document.createElement('script'); // Creamos el objeto script
 script.innerHTML = scriptCode.join('\n');
